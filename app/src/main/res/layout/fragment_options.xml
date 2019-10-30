@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:text="Select your option"
+        android:textSize="18.0dp"
+        android:textColor="#000"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:text="Data View"
+        android:textSize="18.0dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="0.3"
+        android:background="@drawable/blue_gradient"
+        android:id="@+id/dataviewoption"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:text="Chart View"
+        android:textSize="18.0dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_weight="0.3"
+        android:background="@drawable/blue_gradient"
+        android:id="@+id/chartviewoption"
+        />
+</LinearLayout>
